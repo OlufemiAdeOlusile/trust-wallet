@@ -11,7 +11,7 @@ This allows us for easy reusability and multiple permutations of the same tests.
 ./gradlew build
 ```
 #### 2. Manually spin up an appium Server
-#### 3. Configure  [defaults.conf](src%2Fmain%2Fresources%2Fconf%2Fdefaults.conf) or override via environment variables
+#### 3. Configure  [defaults.conf](src%2Fmain%2Fresources%2Fconf%2Fdefaults.conf) or override via environment variables and add apk to project (include correct path in conf)
 #### 4. Run all tests with the following command
 ```shell
 ./gradlew cucumberCli
